@@ -10,4 +10,5 @@ on osx:  ```brew install exiftool```
 export images from Apple Fotos as Original with XMP sidecar, then 
 ```./addXMPtoJPG.sh /path/to/folder/with/jpgs/```
 
+
 it will go through all jpgs and write the xmp data from the xmp file back to the jpg (for example date created)
